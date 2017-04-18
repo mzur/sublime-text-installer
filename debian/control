@@ -1,5 +1,5 @@
 Source: sublime-text-installer
-Section: misx
+Section: misc
 Priority: extra
 Maintainer: Martin Zurowietz <martin@zurowietz.de>
 Build-Depends: debhelper (>=9)
