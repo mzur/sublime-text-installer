@@ -1,17 +1,21 @@
-This package was debianized by Alin Andrei <webupd8@gmail.com> on Fri,  14 Mar 2011 11:05 +0200
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sublime-text-installer
 
-Upstream Author: Alin Andrei <webupd8@gmail.com>
-
-Copyright: 2011 Alin Andrei
-Used a small part of code from flashplugin-nonfree package. Copyright:
-- The original installer script using ruby:
-  Copyright 2001-2006 Takuo KITAME <kitame@northeye.org>
-- The rewritten installer script using sh,
-  later integrated into the debian/p* scripts:
-  Copyright 2006-2007 Bart Martens <bartm@knars.be>
-
-License:
-    GPL v2 see http://www.gnu.org/ for details
-
-
-The Debian packaging is copyright 2011 Alin Andrei <webupd8@gmail.com> and available on the same terms as the package itself (see above).
+Files: debian/*
+Copyright: 2017 Martin Zurowietz <martin@zurowietz.de>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

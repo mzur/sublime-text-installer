@@ -1,18 +1,17 @@
 Source: sublime-text-installer
-Section: misc
+Section: misx
 Priority: extra
-Maintainer: Alin Andrei <webupd8@gmail.com>
-Build-Depends: debhelper
-Standards-Version: 3.9.5
+Maintainer: Martin Zurowietz <martin@zurowietz.de>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
 
 Package: sublime-text-installer
-Architecture: all
+Architecture: any
 Pre-Depends: wget, debconf, libgtk-3-bin
-Depends: ${misc:Depends}
-Provides: sublime-text
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: sublime-text-2-dev, sublime-text-dev, sublime-text
 Replaces: sublime-text-2-beta, sublime-text-2-dev, sublime-text-dev, sublime-text-2, sublime-text
 Description: Sublime Text 3 installer - beta build
- Sublime Text is a sophisticated text editor for code, 
- html and prose. You'll love the slick user interface 
+ Sublime Text is a sophisticated text editor for code,
+ html and prose. You'll love the slick user interface
  and extraordinary features.
