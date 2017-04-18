@@ -1,0 +1,17 @@
+This package was debianized by Alin Andrei <webupd8@gmail.com> on Fri,  14 Mar 2011 11:05 +0200
+
+Upstream Author: Alin Andrei <webupd8@gmail.com>
+
+Copyright: 2011 Alin Andrei
+Used a small part of code from flashplugin-nonfree package. Copyright:
+- The original installer script using ruby:
+  Copyright 2001-2006 Takuo KITAME <kitame@northeye.org>
+- The rewritten installer script using sh,
+  later integrated into the debian/p* scripts:
+  Copyright 2006-2007 Bart Martens <bartm@knars.be>
+
+License:
+    GPL v2 see http://www.gnu.org/ for details
+
+
+The Debian packaging is copyright 2011 Alin Andrei <webupd8@gmail.com> and available on the same terms as the package itself (see above).
