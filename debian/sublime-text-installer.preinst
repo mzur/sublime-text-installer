@@ -12,15 +12,15 @@ INSTALL_DIR=/opt/sublime_text
 UNPACK_DIR=$CACHE_DIR/sublime_text_3
 
 
-SUBLIME_VERSION=3131 #to be changed on each release
+SUBLIME_VERSION=3132 #to be changed on each release
 case $(uname -m) in
 'i686'|'i586'|'i386')
 	arch='x32'
-	SHA256SUM_TGZ="aa759790384040434ca097c09ed09e0e229b872a9e2c9694f6ec04511a82e8a2" #to be changed on each release
+	SHA256SUM_TGZ="fa7091f541831f23f511816b516d98b5d475e758a00443390927fe7cace6b229" #to be changed on each release
 	;;
 'x86_64')
 	arch='x64'
-	SHA256SUM_TGZ="f8165289865b7a7b0f26ac41324885244e01a72414063a345dec32dfd95d78e4" #to be changed on each release
+	SHA256SUM_TGZ="d743f8afbe170b4dabb794903c7fda019c97b4604fcf48d33d00208730eacc3f" #to be changed on each release
 	;;
 *)
 	echo "Architecture '`uname -m`' not supported."
@@ -29,7 +29,7 @@ esac
 
 FILENAME="sublime_text_3_build_${SUBLIME_VERSION}_${arch}.tar.bz2"
 
-for SUBLIME_VERSION_OLD in `seq 3045 3130`; do #to be changed on each release
+for SUBLIME_VERSION_OLD in `seq 3045 3130 3131`; do #to be changed on each release
 	FILENAMES_OLD="sublime_text_3_build_${SUBLIME_VERSION_OLD}_${arch}.tar.bz2 $FILENAMES_OLD"
 done
 
