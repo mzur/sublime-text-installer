@@ -1,3 +1,9 @@
+sublime-text-installer (3132-1) xenial; urgency=medium
+
+  * new upstream build
+
+ -- Oskar Holowaty <coding@holowaty.me>  Sat, 27 May 2017 19:32:12 +0200
+
 sublime-text-installer (3131-1) xenial; urgency=medium
 
   * new upstream build
