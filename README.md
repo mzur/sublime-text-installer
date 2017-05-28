@@ -1,5 +1,7 @@
 # sublime-text-installer
 
+**The PPA and this repository is no longer maintained.** Use the [official package repository](https://www.sublimetext.com/docs/3/linux_repositories.html#apt) instead.
+
 How to build:
 
 1. Update `SUBLIME_VERSION` in `sublime-text-installer.config` and `sublime-text-installer.preinst`
